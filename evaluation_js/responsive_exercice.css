@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {                          /*Pour écran de taille 768px maximum*/
+    
+    body{                                       /*Body*/
+        width: auto;
+        height: auto;
+    }
+    
+    .titre_exe{                                 /*Bulle Header Exercice*/
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    h1{                                         /*H1 Taille et Marge*/
+        font-size: 3rem;
+        margin-left: -2.5rem;
+    }
+    
+    h2{                                         /*H2 Taille et Marges*/
+        font-size: 2rem;
+        margin-top: 0rem;
+        margin-left: -2.5rem;
+    }
+    
+    h3{                                         /*H3 Marges*/
+       margin-left: 6.6rem;
+       margin-top: 0rem;
+    }
+    
+    .int_logo{                                  /*Intérieur Logo Marge*/
+        margin-right: 1.5rem;
+    }
+    
+    ul{                                         /*Liens Marges*/ 
+        margin-top: 0rem;
+        margin-left: -1.2rem;
+        margin-right: 1.4rem;  }
+
+    #copyright{                                 /*Marge Phrase Footer*/
+        margin-top: 4.5rem;
+    }
+
+    p{                                          /*Taille et marge Énoncé*/
+        font-size: 1.4rem;
+        margin-left: 0.5rem;
+    }
+
+    .tab_ex_3{                                  /*Taille Image énoncé exercice 3*/
+        width: 99%;
+        height: auto;
+    }
+
+    }

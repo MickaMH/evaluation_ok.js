@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="style_exercice.css" type="text/css" media="all">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive_exercice.css">
+    <title>Exercice 3</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="titre_exe"> 
+
+            <h1>EXERCICE 3 :</h1>
+        
+            <h2>Recherche d'un prénom</h2>
+
+        </div>
+
+        <div class="logo">
+        
+            <img src="images/logo_afpa_int.jpg" alt="Intérieur Logo Afpa" title="Intérieur Logo Afpa" class="int_logo">  
+           
+        </div>
+        
+    </header>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="exercice_2.html" >◄ Exercice 2</a></li>                                                                                                   
+            
+            <select onchange="location = this.value;" class="page">
+                    
+                <option hidden="-1">Sélectionnez une page</option> 
+                <option value="1_sommaire.html">Sommaire</option>                                                          
+                <option value="exercice_1.html">Exercice 1</option>                                 
+                <option value="exercice_2.html">Exercice 2</option>
+                <option value="exercice_3.html">Exercice 3</option> 
+                <option value="exercice_4.html">Exercice 4</option> 
+                <option value="exercice_5_contact.html">Exercice 5</option>
+
+            </select>
+
+    <!--    <li><a href="1_sommaire.html" >Sommaire</a></li>                -->
+
+            <li><a href="exercice_4.html" >Exercice 4 ►</a></li>   
+
+        </ul>    
+
+    </nav>
+
+    <main>
+
+        <details>
+
+            <summary class="hover_enonce">
+                
+                <span id="enonce">VOIR L' ÉNONCÉ</span>
+
+            </summary>
+            
+            <p>
+                Un prénom est entré au clavier. On le recherche dans le tableau <span id="tab_bleu">tab</span> donné ci-après.<br>
+                <br>
+                Si le prénom est trouvé, on l'élimine du tableau en décalant les cases qui le suivent et en mettant à blanc <br>
+                la dernière case.<br>
+                Si le prénom n'est pas trouvé, un message d'erreur apparaît et aucun prénom ne se supprime.<br>
+                <br>
+                <img src="images/VarTabEx3.png" alt="tab_ex_3" title="tab_ex_3" class="tab_ex_3"><br>
+                <br>
+                (exemple : ["Audrey", "Aurélien", "Flavien", "Jeremy", "Laurent", "Melik","Nouara","Salem","Samuel",""];)
+            </p>
+        
+        </details>   
+
+    </main>
+
+    <footer>
+
+        <ul>
+
+            <li><a href="exercice_2.html" >◄ Exercice 2</a></li>    
+            
+            <select onchange="location = this.value;" class="page">
+                    
+                <option hidden="-1">Sélectionnez une page</option> 
+                <option value="1_sommaire.html">Sommaire</option>                                                          
+                <option value="exercice_1.html">Exercice 1</option>                                 
+                <option value="exercice_2.html">Exercice 2</option>
+                <option value="exercice_3.html">Exercice 3</option> 
+                <option value="exercice_4.html">Exercice 4</option> 
+                <option value="exercice_5_contact.html">Exercice 5</option>
+
+            </select>
+
+    <!--    <li><a href="1_sommaire.html" >Sommaire</a></li>            -->
+
+            <li><a href="exercice_4.html" >Exercice 4 ►</a></li>  
+
+        </ul>   
+
+        <span id="copyright"> Powered by MH Student &copy; - Le logo Afpa est utilisé dans le cadre de la formation.</span>
+
+    </footer>
+
+    <script src="exe_3.js"></script>
+
+</body>
+
+</html>

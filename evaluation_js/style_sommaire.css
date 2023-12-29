@@ -1,0 +1,183 @@
+body{                                               /*Body*/
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+header{                                             /*Header*/
+    width:auto; 
+    height:15rem;
+    display: flex;
+    justify-content: space-between;  
+    border-top: 0.2rem solid #6aaf04;
+    border-left: 0.2rem solid #6aaf04;
+    border-right: 0.2rem solid #6aaf04;
+    border-top-left-radius: 7.5rem 7.5rem;
+    border-top-right-radius: 7.5rem 7.5rem;
+}
+
+nav{                                                /*Nav*/
+    width: auto; 
+    height: 7rem;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{                                               /*Main*/
+    width:auto; 
+    height:40rem;
+    border: 0.15rem solid black;
+    padding-left: 5rem;
+    line-height: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1rem solid #6aaf04;
+    border-bottom: 1rem solid #6aaf04;    
+}
+
+a{                                                  /*Paragraphe du sommaire Main*/
+    color:black;
+    text-decoration: none;
+    font-size: 2rem;
+}    
+
+footer{                                             /*Footer*/
+    width: auto; 
+    height: 7rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column; 
+    border-bottom: 5rem solid #6aaf04;
+    border-bottom-left-radius: 5rem 5rem;
+    border-bottom-right-radius: 5rem 5rem;
+}
+
+.blanc{                                             /*Lien Nav et Footer*/
+    color: #e9e9eb;
+    font-size: 1.3rem;
+    margin-right: 3.3rem;
+}
+
+#exercice{                                          /*Exercice en gras*/
+    font-weight: bold;
+}
+
+li{                                                 /*Point devant Exercice*/
+    color:#6aaf04;
+}
+
+#li_blanc{                                          /*Point devant Liens*/
+    color: black;
+}
+
+.titre_exe{                                         /*Bulle de Titre h1 h2 du Header*/
+    width: 56rem; height: 15rem;
+    color: #e9e9eb;
+    background-color: #6aaf04;
+    border: 0.1rem solid #6aaf04; 
+    padding-left: 3.5rem;    
+    margin-top: -0.2rem;
+    margin-left: 0rem; 
+    border-bottom-right-radius: 7.5rem 7.5rem;
+    border-top-right-radius: 7.5rem 7.5rem;
+    border-top-left-radius: 7.5rem 7.5rem;
+}
+
+.logo{                                              /*Logo Afpa*/
+    width: 14.8rem; 
+    height: 14.8rem;
+    border: 0.2rem solid #6aaf04;
+    margin-top: -0.2rem;
+    margin-right: -0.1rem;
+    border-radius: 7.5rem 7.5rem;
+    background-color: #6aaf04;
+}
+
+.int_logo{                                          /*Intérieur du Logo Afpa*/
+    width: 12rem;
+    height: auto;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+}
+
+h1{                                                 /*Titre du Header H1*/
+    font-size: 2.5rem;
+    text-decoration-color: black;
+}
+
+h2{                                                 /*Sous titre du Header H2*/
+    font-size: 2rem;
+    font-weight: lighter;    
+    text-decoration-color: black;    
+}
+
+h3{                                                 /*Titre du Sommaire: Evaluation finale*/
+    display: flex;
+    justify-content: center;
+    margin-left: 30rem;
+    font-size: 2rem;
+    width: 23rem; height: auto;
+    border: 0.2rem solid black;
+    border-radius: 1rem 1rem;
+}
+
+#copyright{                                         /*Phrase Bas de footer*/
+    color: #e9e9eb;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-right: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#ex_1_foot_somm{                                    /*Lien Footer*/                                    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hover1{                                            /*Hover Exercice 1*/
+    transition: transform 0.3s;
+}
+
+.hover1:hover{
+    width: 40rem;
+    transform: scale(1.1);
+}
+
+.hover2{                                            /*Hover Exercice 2*/
+    transition: transform 0.3s;
+}
+
+.hover2:hover{
+    width: 33.3rem;
+    transform: scale(1.1);
+}
+
+.hover3{                                            /*Hover Exercice 3*/
+    transition: transform 0.3s;
+}
+
+.hover3:hover{
+    width: 34.9rem;
+    transform: scale(1.1);
+}
+
+.hover4{                                            /*Hover Exercice 4*/
+    transition: transform 0.3s;
+}
+
+.hover4:hover{
+    width: 33.7rem;
+    transform: scale(1.1);
+}
+
+.hover5{                                            /*Hover Exercice 5*/
+    transition: transform 0.3s;
+}
+
+.hover5:hover{
+    width: 37.3rem;
+    transform: scale(1.1);
+}
+                                        /*FIN*/

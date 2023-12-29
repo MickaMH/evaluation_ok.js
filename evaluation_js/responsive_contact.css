@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px) {          /*Pour écran de taille 768px maximum*/
+
+body{
+    width: auto; 
+    height: auto; 
+    margin: auto;
+}
+
+header{ 
+    max-width: 100%;                            /*En colonne*/              /*Header*/
+    display:flex; 
+    flex-direction: column;
+}     
+    
+header img{ 
+    max-width:50% ; 
+    height: auto; 
+    margin-top: 1rem; 
+    margin-bottom: 0rem;
+}            
+    
+header p{                                       /*Tout le jardin*/
+    font-size: 1.5rem; 
+    margin-bottom: 1rem; 
+    margin-top: 0rem; 
+    margin-left: 38rem;
+}   
+
+ul{                                                                         /*Nav*/
+    width: 97.9%; 
+}                             
+    
+.promo{                                         /*Image Promo*/
+    width:108.3%; 
+    height:auto;
+}                                                          
+
+section{                                                                    /*Section*/
+    width: 100%; 
+    height: 100%;
+}                                                               
+
+article{                                                                    /*Article*/
+    margin-left: 2rem; 
+    margin-right: 2rem; 
+    margin-bottom: 2rem; 
+    margin-top: 2rem;
+}             
+    
+aside{                                                                      /*Aside*/
+    display: none;
+}                                                                             
+
+main{                                           /*Bordure Formulaire*/      /*Main*/
+    width: 100%; 
+    height: 100%;
+}                                          
+
+H1{                                             /*Marge du titre H1 Contact*/
+    margin-left: 0.5rem;
+}                                                   
+
+.indication{                                    /*Class pour marge "Ces champs sont oblig."*/
+    margin-left: 0.5rem;
+}                                         
+
+input.boutons{                                  /*Marge Boutons Envoyer/Annuler*/
+    margin-left: 22rem;
+}                                                       
+
+fieldset{                                       /*Bordures Formulaire */
+    width:100%; 
+    margin-left: 0.8rem;
+}                                 
+
+.casecoche{                                     /*Class pour marge "case à cocher"*/
+    margin-left: 1.5rem;
+}                                           
+
+}

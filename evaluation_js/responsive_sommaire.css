@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {                          /*Pour écran de taille 768px maximum*/
+    
+body{                                   /*Body*/
+    width: auto;
+    height: auto;
+}
+
+h1{                                     /*Taille H1*/
+    font-size: 2rem;
+}
+
+h2{                                     /*Taille et Marge H2*/
+    font-size: 1.7rem;
+    margin-top: -1rem;
+}
+
+h3{                                     /*Marges H3*/
+   margin-left: 6.6rem;
+   margin-top: 0rem;
+}
+
+.int_logo{                              /*Marge Intérieur Logo*/
+    margin-right: 1.5rem;
+}
+
+ul{                                     /*Liens Exercices Sommaire*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: -3.5rem;
+}
+
+#copyright{                             /*Marge Phrase Footer*/
+    margin-top: 2.5rem;
+}
+
+}

@@ -1,0 +1,149 @@
+html{font-size: 100%;}                                  /*Taille de Page*/    
+
+header{display: flex; font-size: 2rem;}     /*Header*/  /*Header Aligné/Taille Police*/
+
+header img{width: 30rem;height: auto;}                  /*Header Taille Image*/
+
+header p{   font-size: 2rem;                            /*Header Phrase "Tout le jardin"*/
+            margin-left: 35rem;
+            margin-top: 4rem;}
+
+h1{font-size: 2.5rem;}                                  /*Taille police Titre*/
+
+h2{font-size: 1.5rem;}                                  /*Taille police Sous-Titre*/                                                      
+
+p{  line-height: 2rem;                                  /*Paragraphes Hauteur de Ligne/Taille de Police/*/
+    font-size: 1.2rem;}                
+
+nav img{width: 100%; height: auto;}         /*Nav*/     /*Nav Image promotionnelle*/
+
+a{  color: white;                                     /*Intitulés liens de page*/
+    text-decoration: none;
+    font-family: sans-serif;
+}                                                       
+
+ul{ font-size: 1.3rem;                                   /*Liens de page Haut et Bas*/
+    background-color: black; 
+    display: flex;
+    padding: 0rem 2.5rem 0rem 2.5rem; 
+    gap: 2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    justify-content: space-between;
+    align-items: center;
+    width:auto; height: 7.1rem;
+}
+
+li{
+    margin-left: 0.9rem;                                /*Marges liens Nav*/
+    margin-right: 0.9rem;
+}
+
+section{width: 70%; height: auto;}          /*Section*/
+
+
+div{                                                    /*Div entre Section et Aside*/
+    display: flex;                                      
+    justify-content: space-between;
+}
+
+aside{  border-radius: 1rem 1rem;           /*Aside*/   /*Aside paramètres*/ 
+        width: 40%; height: 5%;                         
+        border: 0.2rem solid #6aaf04; 
+        margin: 2rem 4rem 0rem 0rem;
+        font-family: sans-serif;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+}
+
+main{                                       /*Main*/
+        width: 50%;height: 20%;   
+        font-size: 1.5rem;   
+}
+
+details{                                                /*Enoncé Déroulant*/
+    font-size: 2rem;
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+th{ font-size: 1.5rem;                      /*Tableau*/ /*Intitulés En-Tête Tableau*/
+    width:15rem;
+    height: 4rem;
+    text-align: center;
+    border: 0.1rem solid black;}
+
+td{ font-size: 1.2rem;                                  /*Données Corps Tableau*/
+    width:15rem;
+    height: 8rem;
+    text-align: center;
+    border: 0.1rem solid black;}
+
+sup{ color: red ;}                                    /*Astérisque en supérieur/Rouge*/
+
+form{ line-height: 1.8rem;               /*Formulaire*/ /*Hauteur de ligne Formulaire*/
+}                                           
+
+fieldset{border:0.1rem solid black;                   /*Bordure de Formulaire*/
+         margin-right: 0rem;}
+
+input.boutons{  margin-left: 18rem;                     /*Marges des boutons Envoyer/Annuler*/
+                margin-top: 1rem;}
+
+::placeholder{ font-style: italic;                      /*Placeholder en italique*/
+               font-family: sans-serif; 
+               font-size: 1.2rem;
+}                                                       
+                  
+.page{                                                  /* Class: Menu déroulant(nefonctionne pas) */
+    width:16rem;
+    height:2.5rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+}
+  
+#exercice{                                              /* Id: Exercice en gras*/
+    font-weight: bold;
+}
+
+select{                                                 /*Taille et Police Select*/
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+input{                                                  /*Taille et Police Input*/
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+textarea{                                               /*Taille et Police Textarea*/
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+#envoi{                                                 /*Couleur Bouton Envoi*/
+    background-color: green;
+    color: white;
+}
+
+#reset{                                                 /*Couleur bouton Reset*/
+    background-color:red;
+    color: white;
+}
+
+#style_feminin{                                         /*Police du message d'erreur bouton Féminin*/     
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+#style_masculin{                                        /*Police du message d'erreur bouton Masculin*/
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+aside p{                                                /*Paragraphe du Aside*/
+    font-family: serif;
+    font-size: 1.8rem;
+}
+                                    /*FIN*/
